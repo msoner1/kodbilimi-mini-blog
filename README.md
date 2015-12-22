@@ -11,6 +11,10 @@
     
     Step 3 : And finally you have to edit kodlar/database.php file.
     
+    Your default admin panel info
+      username : admin
+      password : 12345
+      
     
   <h2>İlk Websiteme Hoşgeldiniz</h2>
   
@@ -22,4 +26,6 @@
     
     Step 3 : Son olarak kodlar/database.php dosyasını kendinize göre düzenlemelisiniz.
   
-    
+     Mevcut admin paneli giriş bilgileriniz
+      kullanıcı adı : admin
+      şifre : 12345
