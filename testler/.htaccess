@@ -1,0 +1,5 @@
+
+DirectoryIndex index.php
+Options +FollowSymLinks 
+RewriteEngine On 
+RewriteRule ^(.*)-t([0-9]*).html$ test.php?t=$2 [L,NC]

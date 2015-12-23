@@ -1,0 +1,205 @@
+.onceki, .sonraki{
+background-color:black;
+color:snow;
+border-top-left-radius:1em;
+border-top-right-radius:1em;
+opacity:0.8;
+width:150px;
+height:30px;
+position:fixed;
+z-index:99999;
+bottom:0;
+transition-duration:0.5s;
+font-size:25px;
+font-weight:bold;
+padding:0px 40px;
+box-sizing:border-box;
+}
+.onceki{
+left:5%;
+}
+.sonraki{
+right:35%;
+}
+.onceki:hover,.sonraki:hover{
+cursor:pointer;
+opacity:1.0;
+}
+.soru{
+width:65%;
+float:left;
+overflow:hidden;
+position:relaitive;
+font-weight:bold;
+font-size:30px;
+margin-left:2%;
+margin-right:2%;
+margin-bottom:0px;
+}
+.soru_resmi{
+float:left;
+margin-left:5%;
+width:57%;
+height:450px;
+}
+.cevap{
+overflow:hidden;
+width:65%;
+float:left;
+position:relaitive;
+font-weight:lighter;
+font-size:22px;
+margin-top:20px;
+margin-left:3%;
+margin-right:3%;
+line-height:25px;
+}
+.cevap h2{
+font-weight:bold;
+font-size:25px;
+margin-top:5px;
+margin-bottom:5px;
+margin-left:3%;
+margin-right:3%;
+line-height:25px;
+}
+.cevap i{color:blue;}
+.cevap p{
+text-align:justify;
+font-weight:lighter;
+font-size:22px;
+margin-top:0px;
+margin-left:4%;
+line-height:25px;
+}
+.cevap img{
+margin-top:5px;
+margin-left:10%;
+margin-right:10%;
+margin-bottom:10px;
+max-width:80%;
+float:left;
+}
+.cevap iframe{
+width:100%;
+height:auto;
+min-height:500px;
+}
+.pre{
+width:80%;
+margin-left:10%;
+margin-right:10%;
+}
+#icerik{
+font-family:"open sans condensed" ;
+background-color:snow;
+overflow:hidden;
+float:left;
+position:relaitive;
+width:100%;
+height:auto;
+min-height:900px;
+box-sizing:border-box;
+}
+#ana{
+cursor:default;
+min-height:500px;
+width:95%;
+margin:60px auto;
+font-family:"open sans condansed";
+}
+
+.menu_link2,.menu_link{
+color:black;
+text-decoration:none;
+}
+.tarih{
+font-size:15px;
+color:black;
+text-align:right;
+margin-bottom:-5px;
+margin-top:-3px;
+}
+.dikkatceken{
+font-size:20px;
+color:black;
+margin-left:10px;
+border-bottom:1px solid #ddd;
+margin-top:15px;
+margin-bottom:15px;
+font-weight:lighter;
+}
+.anabaslik {
+float:left;
+width:65%;
+padding-left:20px;
+margin-bottom:5px;
+height:auto;
+overflow:hidden;
+border-bottom:1px solid grey;
+}
+.aciklama{
+cursor:default;
+margin-left:30px;
+margin-right:30px;
+float:left;
+position:relaitive;
+font-size:15px;
+width:65%;
+font-size:20px;
+height:auto;
+}
+
+.konu_aciklama{color:black;font-size:18px;line-height:18px;}
+.konu_baslik{font-size:22px;line-height:18px;}
+.konular{
+position:relaitive;
+margin:0px 20px;
+height:auto;
+width:65%;
+}
+.resim{
+margin:10px;
+float:left;
+}
+.konu{
+float:left;
+width:95%;
+padding:10px;
+margin-bottom:5px;
+font-size:20px;
+height:auto;
+overflow:hidden;
+transition-duration:0.5s;
+color:teal;
+border-bottom:1px solid #ddd;
+}
+.konular :hover{
+cursor:pointer;
+box-shadow:0px 0px 10px teal;
+}
+.resim:hover,.konu_aciklama:hover,.konu_baslik:hover,.tarih:hover,.konu img:hover{
+box-shadow:0px 0px 0px teal;
+}
+body{
+background-color:black;
+width:100%;
+height:100%;
+margin:auto;
+padding:auto;
+}
+@media (max-width:800px){
+#ana{width:100%;}
+.konular{width:95%;margin:auto}
+.soru_resmi{height:250px;}
+.soru{width:95%;}
+.cevap{width:95%;}
+.anabaslik{width:100%}
+.soru_resmi{width:80%;margin-left:10%}
+.onceki,.sonraki{display:none;}
+}
+@media (min-width:1400px){
+body{
+width:1354px;
+}
+}

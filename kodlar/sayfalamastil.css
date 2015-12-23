@@ -1,0 +1,31 @@
+.sayfalama{
+list-style:none;
+text-align:center;
+margin:10px 50px;
+width:400px;
+height:40px;
+overflow:auto;
+float:left;
+
+}
+.sayfalama li{
+transition-duration:0.5s;
+text-align:center;
+font-size:20px;
+margin:5px;
+padding-top:-5px;
+padding-bottom:-5px;
+padding-left:5px;
+padding-right:5px;
+position:relaitive;
+border:1px solid black;
+border-radius:20px;
+float:left;
+position:relaitive;
+}
+.sayfalama li:hover{
+cursor:pointer;
+background-color:white;
+box-shadow:0px 0px 10px black;
+
+}

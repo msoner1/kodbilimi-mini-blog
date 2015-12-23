@@ -1,0 +1,41 @@
+#yan {
+margin-top:10px;
+margin-left:900px;
+font-family:"open sans condensed" ;
+border-bottom-left-radius:1em;
+border-bottom-right-radius:1em;
+background-size:100% 100%;
+overflow:hidden;
+width:27%;
+box-sizing:border-box;
+-webkit-box-sizing:border-box;
+border:1px solid #ddd;
+}
+#yan h3:hover{
+color:blue;
+font-weight:bold;
+text-shadow:10px 10px 10px black;
+}
+.yanbaslik1 {
+background-color:#ddd;
+background-image:url(../img/dikkat.png);
+background-repeat:no-repeat;
+text-align:center;
+font-size:25px;
+border-bottom:1px inset #ddd;
+margin:0px;   
+line-height:5px;
+padding:20px;
+overflow:auto;
+font-weight:lighter;
+background-position:10px;
+background-size:15% 90%;
+}
+@media (max-width:800px){
+.yanbaslik1{
+display:none;
+}
+#yan{
+display:none;
+}
+}

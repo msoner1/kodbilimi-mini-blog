@@ -1,0 +1,18 @@
+SetOutputFilter DEFLATE
+ExpiresActive On
+ExpiresDefault A604800
+Header append Cache-Control "public"
+AddDefaultCharset UTF-8
+DefaultLanguage tr-TR
+ErrorDocument 404 /404/404.html
+
+
+# DO NOT REMOVE THIS LINE AND THE LINES BELOW HOTLINKID:NenaJegyXu
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} !^http://kodbilimi.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://kodbilimi.com$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.kodbilimi.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.kodbilimi.com$      [NC]
+RewriteRule .*\.(.*)$ http://kodbilimi.com [R,NC]
+# DO NOT REMOVE THIS LINE AND THE LINES ABOVE NenaJegyXu:HOTLINKID
+

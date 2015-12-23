@@ -1,0 +1,5 @@
+
+DirectoryIndex kategori.php
+Options +FollowSymLinks 
+RewriteEngine On 
+RewriteRule ^(.*)-t([0-9]*)s([0-9]*).html$ kategori.php?t=$2&s=$3 [L,NC]
